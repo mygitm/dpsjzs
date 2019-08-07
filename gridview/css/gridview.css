@@ -1,0 +1,83 @@
+.displaySub {
+    display: none;
+}
+
+.gridTableContent {
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.gridTableContent > tbody > tr > td {
+    border-left: 1px dashed #cccccc;
+    border-bottom: 1px dashed #cccccc;
+    padding: 7px 3px 7px 3px;
+    font-size: 13px;
+    height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.gridTableHead {
+    overflow: hidden;
+    background-color: #DEEDF7;
+    table-layout: fixed;
+    border: 1px solid #DEEDF7;
+
+}
+
+.gridTableHead tr td {
+    border-top: 1px dashed #AED0EA;
+    border-left: 1px dashed #AED0EA;
+    border-bottom: 1px dashed #AED0EA;
+    text-align: center;
+    color: #278BC7;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7px 0px 7px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.gridTableSub {
+    table-layout: fixed;
+    margin-left: -1px;
+}
+
+.gridTableSub tr td {
+    border-left: 1px dashed #cccccc;
+    border-bottom: 1px dashed #cccccc;
+    padding: 7px 3px 7px 3px;
+    font-size: 13px;
+    height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.gridSub_icon_1 {
+    background: url('../images/gridsub_1.png') no-repeat;
+    background-size: 10px 10px;
+}
+
+.gridSub_icon_2 {
+    background: url('../images/gridsub_2.png') no-repeat;
+    background-size: 10px 10px;
+}
+
+.grid_footer_table {
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+    border-left: 1px solid #DEEDF7;
+    border-right: 1px solid #DEEDF7;
+    border-bottom: 1px solid #DEEDF7;
+}
+
+.dataTables_info {
+    text-align: right;
+    padding-right: 30px;
+}
+
+
